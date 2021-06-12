@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#form-container {
+  max-width: 1240px;
+  height: 1036px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#form-title{
+color: white;
+font-family: 'Bowlby One SC', cursive;
+}
+span{
+    color: red;
+}
