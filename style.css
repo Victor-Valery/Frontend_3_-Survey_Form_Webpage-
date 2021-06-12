@@ -3,12 +3,16 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  color: white;
+  background-image: url(./images/Netflix_background.jpg);
+}
 html {
   font-size: 20px;
 }
 #form-container {
   max-width: 1240px;
-  height: 1036px;
+  height: 1400px;
   margin: auto;
   margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -32,16 +36,42 @@ span {
 }
 #survey-form-container {
   max-width: 500px;
-  height: 897px;
+  height: 1200px;
   background-color: rgba(0, 0, 0, 0.8);
   margin: auto;
   padding: 10px;
 }
 #survey-form {
-    max-width: 460px;
-    height: 800px;
-    margin: auto;
-    font-size: 1rem;
-    background-color: yellowgreen;
-
+  max-width: 460px;
+  height: 800px;
+  margin: auto;
+  font-size: 1rem;
+}
+#name,
+#age,
+#email,
+#dropdown,
+#feedback {
+  width: 100%;
+  padding: 10px 10px;
+  margin-top: 5px;
+}
+.input-box {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#form-button {
+  width: 160px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+#form-submit {
+  width: 160px;
+  margin: auto;
+  margin-top: 15px;
 }
